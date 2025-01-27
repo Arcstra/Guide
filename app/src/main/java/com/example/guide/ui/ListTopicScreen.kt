@@ -14,7 +14,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -55,7 +54,7 @@ fun ListTopicScreen(
 @Composable
 fun ListSubjectTopic(
     showOneTopic: (TopicUIState) -> Unit,
-    topicOneSubject: Pair<Int, List<TopicUIState>>,
+    topicOneSubject: Pair<Int, List<Pair<Int, List<TopicUIState>>>>,
     modifier: Modifier = Modifier
 ) {
     var expanded by remember { mutableStateOf(false) }
@@ -103,7 +102,7 @@ fun ListSubjectTopic(
 @Composable
 fun ListTopic(
     showOneTopic: (TopicUIState) -> Unit,
-    listTopic: List<TopicUIState>,
+    listTopic: List<Pair<Int, List<TopicUIState>>>,
     modifier: Modifier = Modifier
 ) {
     Column(modifier) {
@@ -122,6 +121,73 @@ fun ListTopic(
 @Composable
 fun ItemTopic(
     showOneTopic: (TopicUIState) -> Unit,
+    itemTopic: Pair<Int, List<TopicUIState>>,
+    modifier: Modifier = Modifier
+) {
+    var expanded by remember { mutableStateOf(false) }
+    Column(
+        modifier = modifier.animateContentSize(
+            animationSpec = spring(
+                dampingRatio = Spring.DampingRatioNoBouncy,
+                stiffness = Spring.StiffnessMedium
+            )
+        )
+    ) {
+        Button(
+            onClick = { expanded = !expanded },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = dimensionResource(R.dimen.padding_small)),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+            )
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = if (stringResource(itemTopic.first).length < 22) stringResource(itemTopic.first) else stringResource(itemTopic.first).substring(0, 22) + "...",
+                    style = MaterialTheme.typography.headlineMedium
+                )
+                Spacer(Modifier.weight(1f))
+                Icon(
+                    imageVector = if (expanded) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore,
+                    contentDescription = stringResource(R.string.expand_button_content_description)
+                )
+            }
+        }
+        if (expanded) {
+            ListSubTopic(
+                showOneTopic = showOneTopic,
+                listTopic = itemTopic.second
+            )
+        }
+    }
+}
+
+@Composable
+fun ListSubTopic(
+    showOneTopic: (TopicUIState) -> Unit,
+    listTopic: List<TopicUIState>,
+    modifier: Modifier = Modifier
+) {
+    Column(modifier) {
+        listTopic.forEach {
+            ItemSubTopic(
+                showOneTopic = showOneTopic,
+                itemTopic = it,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = dimensionResource(R.dimen.padding_medium))
+            )
+        }
+    }
+}
+
+@Composable
+fun ItemSubTopic(
+    showOneTopic: (TopicUIState) -> Unit,
     itemTopic: TopicUIState,
     modifier: Modifier = Modifier
 ) {
@@ -130,13 +196,13 @@ fun ItemTopic(
         modifier = modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
         shape = MaterialTheme.shapes.small,
         colors = ButtonDefaults.buttonColors(
-            containerColor = MaterialTheme.colorScheme.secondaryContainer,
-            contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+            containerColor = MaterialTheme.colorScheme.tertiaryContainer,
+            contentColor = MaterialTheme.colorScheme.onTertiaryContainer
         )
     ) {
         Text(
             text = stringResource(itemTopic.name),
-            style = MaterialTheme.typography.headlineMedium
+            style = MaterialTheme.typography.headlineSmall
         )
     }
 }
@@ -146,19 +212,5 @@ fun ItemTopic(
 fun ListPreview() {
     GuideTheme {
         ListTopicScreen({})
-    }
-}
-
-@Preview
-@Composable
-fun ItemPreview() {
-    GuideTheme {
-        ItemTopic(
-            showOneTopic = {},
-            itemTopic = TopicUIState(name = R.string.lorem),
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(start = dimensionResource(R.dimen.padding_small))
-            )
     }
 }

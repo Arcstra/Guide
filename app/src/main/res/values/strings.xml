@@ -8,4 +8,49 @@
     <string name="lorem_ipsum_more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="back">Назад</string>
     <string name="back_button_content_description">Вернуться к списку с темами.</string>
+    <string name="topic_label_mkt">Молекулярно-кинетическая теория</string>
+    <string name="sub_topic_label_mkt">Основные положения молекулярно-кинетической теории</string>
+    <string name="sub_topic_body_mkt">1) Любое вещество состоит из мельчайших частиц — молекул и атомов. Они расположены в пространстве дискретно, то есть на некоторых расстояниях друг от друга."&#xA;"
+2) Атомы или молекулы вещества находятся в состоянии беспорядочного движения, которое никогда не прекращается."&#xA;"
+3) Атомы или молекулы вещества взаимодействуют друг с другом силами притяжения и отталкивания, которые зависят от расстояний между частицами.
+</string>
+    <string name="sub_topic_label_gaz">Идеальный газ</string>
+    <string name="sub_topic_body_gaz">Идеальный газ — это газ, частицы которого являются не взаимодействующими на расстоянии материальными точками и испытывают абсолютно упругие соударения друг с другом и со стенками сосуда.
+</string>
+    <string name="sub_topic_label_osn_yravn_mkt">Основное уравнение МКТ</string>
+    <string name="sub_topic_body_osn_yravn_mkt">Простейшей моделью, рассматриваемой молекулярно-кинетической теорией, является модель идеального газа. В кинетической модели идеального газа молекулы рассматриваются как идеально упругие шарики, взаимодействующие между собой и со стенками только во время упругих столкновений. Из-за соударений молекулы оказывают давление на стенки.
+</string>
+    <string name="description_image_osn_yravn_mkt">Основное уравнение МКТ идеального газа</string>
+    <string name="description_image_sred_kvadr_scor">Средняя квадратичная скорость</string>
+    <string name="description_image_konz">Концентрация</string>
+    <string name="description_image_sred_davl_gaz">Формула для среднего давления газа на стенку сосуда</string>
+    <string name="sub_topic_label_kin_energ">Кинетическая энергия</string>
+    <string name="sub_topic_body_kin_energ">МКТ рассматривает тепловое движение — движение, при котором молекулы хаотично двигаются. Молекулы при хаотичном движении имеют некоторую скорость и обладают кинетической энергией. Кинетическая энергия теплового (хаотического) движения характеризует температуру тела. Температура тела показывает, насколько быстро двигаются молекулы.
+</string>
+    <string name="description_image_kin_energ_one_molek">Кинетическая энергия поступательного движения одной молекулы</string>
+    <string name="description_image_sred_kvadr_scor_one_molek">Средняя квадратичная скорость движения одной молекулы</string>
+    <string name="sub_topic_label_kelvin">Температурная шкала Кельвина</string>
+    <string name="sub_topic_body_kelvin">В МКТ для температур принято использовать абсолютную шкалу Кельвина."&#xA;"
+Единицы измерения: К — кельвин.</string>
+    <string name="description_image_zelc_to_kelvin">Перевод из шкалы Цельсия в шкалу Кельвина</string>
+    <string name="description_image_0_kelvin">В классической физике принято считать, что при температуре 0 кельвинов молекулы перестают двигаться и тепловое движение прекращается</string>
+    <string name="sub_topic_label_kol_veshestva">Количество вещества</string>
+    <string name="sub_topic_body_kol_veshestva"></string>
+    <string name="description_image_kol_veshestva">Количество вещества</string>
+    <string name="sub_topic_label_mol_massa">Молярная масса</string>
+    <string name="sub_topic_body_mol_massa">Это масса одного моля вещества.</string>
+    <string name="description_image_mol_massa_h2o">Например, молекула воды содержит два атома водорода и один атом кислорода и имеет химическую формулу H2O. Атомная масса водорода из таблицы Менделеева 1, атомная масса кислорода 16, причем атом водорода «повторяется» в молекуле 2 раза, а атом кислорода — один раз. Исходя из этого, найдем молярную массу молекулы воды</string>
+    <string name="sub_topic_label_yravn_gaz">Уравнение состояния идеального газа</string>
+    <string name="sub_topic_body_yravn_gaz"></string>
+    <string name="description_image_yravn_klayp_mend_1">Уравнение Клапейрона-Менделеева, или уравнение состояния идеального газа, связывает три макроскопических параметра газа</string>
+    <string name="description_image_yravn_klayp_mend_2">Уравнение Клапейрона-Менделеева также можно записать в виде</string>
+    <string name="sub_topic_label_izoprocess">Изопроцессы</string>
+    <string name="sub_topic_body_izoprocess">Изопроцессы — термодинамические процессы, во время которых количество вещества газа и один из параметров состояния: давление, объём или температура — остаётся неизменным.
+</string>
+    <string name="description_image_izoterm">Изотермический процесс. По закону Бойля-Мариотта</string>
+    <string name="description_image_izohorn">Изохорный процесс. По закону Шарля</string>
+    <string name="description_image_izobarn">Изобарный процесс. По закону Гей-Люссака</string>
+    <string name="sub_topic_label_graph_izoprocess">Графики изопроцессов</string>
+    <string name="sub_topic_body_graph_izoprocess"></string>
+    <string name="description_image_graph_izoprocess">Графики изопроцессов</string>
 </resources>

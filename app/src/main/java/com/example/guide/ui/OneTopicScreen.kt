@@ -5,17 +5,15 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,6 +23,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.guide.R
 import com.example.guide.data.TopicUIState
@@ -46,7 +45,9 @@ fun OneTopicScreen(
         item {
             Text(
                 text = stringResource(topic.name),
-                style = MaterialTheme.typography.headlineLarge
+                modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
+                style = MaterialTheme.typography.headlineLarge,
+                textAlign = TextAlign.Center
             )
             Text(
                 text = stringResource(topic.content),
@@ -113,7 +114,7 @@ fun BackButton(
                 style = MaterialTheme.typography.labelLarge
             )
             Icon(
-                imageVector = Icons.Filled.ArrowBack,
+                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                 contentDescription = stringResource(R.string.back_button_content_description)
             )
         }
@@ -126,7 +127,7 @@ fun PreviewOneTopic() {
     GuideTheme {
         OneTopicScreen(
             {},
-            TopicUIState(images = listOf(Pair(R.drawable.c7f390645e1ba7ba0338173f304152ce_big, R.string.physics)))
+            TopicUIState(name = R.string.sub_topic_label_mkt, content = R.string.sub_topic_body_mkt)
         )
     }
 }
