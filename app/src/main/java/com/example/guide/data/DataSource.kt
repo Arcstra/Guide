@@ -62,6 +62,83 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                         )
                     )
                 )
+            ),
+            Pair(
+                R.string.topic_label_term,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_term_1, content = R.string.sub_topic_body_term_1,
+                        images = listOf(
+                            Pair(R.drawable.term_1, R.string.description_image_term_1),
+                            Pair(R.drawable.term_2, R.string.description_image_term_2),
+                            Pair(R.drawable.term_3, R.string.description_image_term_3),
+                            Pair(R.drawable.term_4, R.string.description_image_term_4),
+                            Pair(R.drawable.term_5, R.string.description_image_term_5),
+                            Pair(R.drawable.term_6, R.string.description_image_term_6),
+                            Pair(R.drawable.term_7, R.string.description_image_term_7),
+                            Pair(R.drawable.term_8, R.string.description_image_term_8),
+                            Pair(R.drawable.term_9, R.string.description_image_term_9),
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_2, content = R.string.sub_topic_body_term_2,
+                        images = listOf(
+                            Pair(R.drawable.term_10, R.string.description_image_term_10)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_3, content = R.string.sub_topic_body_term_3,
+                        images = listOf(
+                            Pair(R.drawable.term_11, R.string.description_image_term_11),
+                            Pair(R.drawable.term_12, R.string.description_image_term_12)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_4, content = R.string.sub_topic_body_term_4,
+                        images = listOf(
+                            Pair(R.drawable.term_13, R.string.description_image_term_13),
+                            Pair(R.drawable.term_14, R.string.description_image_term_14),
+                            Pair(R.drawable.term_15, R.string.description_image_term_15)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_5, content = R.string.sub_topic_body_term_5,
+                        images = listOf(
+                            Pair(R.drawable.term_16, R.string.description_image_term_16),
+                            Pair(R.drawable.term_17, R.string.description_image_term_17),
+                            Pair(R.drawable.term_18, R.string.description_image_term_18)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_6, content = R.string.sub_topic_body_term_6,
+                        images = listOf(
+                            Pair(R.drawable.term_19, R.string.description_image_term_19),
+                            Pair(R.drawable.term_20, R.string.description_image_term_20)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_7, content = R.string.sub_topic_body_term_7,
+                        images = listOf()
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_8, content = R.string.sub_topic_body_term_8,
+                        images = listOf(
+                            Pair(R.drawable.term_21, R.string.description_image_term_21)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_9, content = R.string.sub_topic_body_term_9,
+                        images = listOf(
+                            Pair(R.drawable.term_22, R.string.description_image_term_22),
+                            Pair(R.drawable.term_23, R.string.description_image_term_23),
+                            Pair(R.drawable.term_24, R.string.description_image_term_24)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_10, content = R.string.sub_topic_body_term_10,
+                        images = listOf(
+                            Pair(R.drawable.term_25, R.string.description_image_term_25),
+                            Pair(R.drawable.term_26, R.string.description_image_term_26),
+                            Pair(R.drawable.term_27, R.string.description_image_term_27)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_term_11, content = R.string.sub_topic_body_term_11,
+                        images = listOf(
+                            Pair(R.drawable.term_28, R.string.description_image_term_28),
+                            Pair(R.drawable.term_29, R.string.description_image_term_29)
+                        )
+                    ),
+                )
             )
         )
     ),

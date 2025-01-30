@@ -20,37 +20,111 @@
     <string name="sub_topic_label_osn_yravn_mkt">Основное уравнение МКТ</string>
     <string name="sub_topic_body_osn_yravn_mkt">Простейшей моделью, рассматриваемой молекулярно-кинетической теорией, является модель идеального газа. В кинетической модели идеального газа молекулы рассматриваются как идеально упругие шарики, взаимодействующие между собой и со стенками только во время упругих столкновений. Из-за соударений молекулы оказывают давление на стенки.
 </string>
-    <string name="description_image_osn_yravn_mkt">Основное уравнение МКТ идеального газа</string>
-    <string name="description_image_sred_kvadr_scor">Средняя квадратичная скорость</string>
-    <string name="description_image_konz">Концентрация</string>
-    <string name="description_image_sred_davl_gaz">Формула для среднего давления газа на стенку сосуда</string>
+    <string name="description_image_osn_yravn_mkt">Основное уравнение МКТ идеального газа:</string>
+    <string name="description_image_sred_kvadr_scor">Средняя квадратичная скорость:</string>
+    <string name="description_image_konz">Концентрация:</string>
+    <string name="description_image_sred_davl_gaz">Формула для среднего давления газа на стенку сосуда:</string>
     <string name="sub_topic_label_kin_energ">Кинетическая энергия</string>
     <string name="sub_topic_body_kin_energ">МКТ рассматривает тепловое движение — движение, при котором молекулы хаотично двигаются. Молекулы при хаотичном движении имеют некоторую скорость и обладают кинетической энергией. Кинетическая энергия теплового (хаотического) движения характеризует температуру тела. Температура тела показывает, насколько быстро двигаются молекулы.
 </string>
-    <string name="description_image_kin_energ_one_molek">Кинетическая энергия поступательного движения одной молекулы</string>
-    <string name="description_image_sred_kvadr_scor_one_molek">Средняя квадратичная скорость движения одной молекулы</string>
+    <string name="description_image_kin_energ_one_molek">Кинетическая энергия поступательного движения одной молекулы:</string>
+    <string name="description_image_sred_kvadr_scor_one_molek">Средняя квадратичная скорость движения одной молекулы:</string>
     <string name="sub_topic_label_kelvin">Температурная шкала Кельвина</string>
     <string name="sub_topic_body_kelvin">В МКТ для температур принято использовать абсолютную шкалу Кельвина."&#xA;"
 Единицы измерения: К — кельвин.</string>
-    <string name="description_image_zelc_to_kelvin">Перевод из шкалы Цельсия в шкалу Кельвина</string>
-    <string name="description_image_0_kelvin">В классической физике принято считать, что при температуре 0 кельвинов молекулы перестают двигаться и тепловое движение прекращается</string>
+    <string name="description_image_zelc_to_kelvin">Перевод из шкалы Цельсия в шкалу Кельвина:</string>
+    <string name="description_image_0_kelvin">В классической физике принято считать, что при температуре 0 кельвинов молекулы перестают двигаться и тепловое движение прекращается:</string>
     <string name="sub_topic_label_kol_veshestva">Количество вещества</string>
     <string name="sub_topic_body_kol_veshestva"></string>
-    <string name="description_image_kol_veshestva">Количество вещества</string>
+    <string name="description_image_kol_veshestva">Количество вещества:</string>
     <string name="sub_topic_label_mol_massa">Молярная масса</string>
     <string name="sub_topic_body_mol_massa">Это масса одного моля вещества.</string>
-    <string name="description_image_mol_massa_h2o">Например, молекула воды содержит два атома водорода и один атом кислорода и имеет химическую формулу H2O. Атомная масса водорода из таблицы Менделеева 1, атомная масса кислорода 16, причем атом водорода «повторяется» в молекуле 2 раза, а атом кислорода — один раз. Исходя из этого, найдем молярную массу молекулы воды</string>
+    <string name="description_image_mol_massa_h2o">Например, молекула воды содержит два атома водорода и один атом кислорода и имеет химическую формулу H2O. Атомная масса водорода из таблицы Менделеева 1, атомная масса кислорода 16, причем атом водорода «повторяется» в молекуле 2 раза, а атом кислорода — один раз. Исходя из этого, найдем молярную массу молекулы воды:</string>
     <string name="sub_topic_label_yravn_gaz">Уравнение состояния идеального газа</string>
     <string name="sub_topic_body_yravn_gaz"></string>
-    <string name="description_image_yravn_klayp_mend_1">Уравнение Клапейрона-Менделеева, или уравнение состояния идеального газа, связывает три макроскопических параметра газа</string>
-    <string name="description_image_yravn_klayp_mend_2">Уравнение Клапейрона-Менделеева также можно записать в виде</string>
+    <string name="description_image_yravn_klayp_mend_1">Уравнение Клапейрона-Менделеева, или уравнение состояния идеального газа, связывает три макроскопических параметра газа:</string>
+    <string name="description_image_yravn_klayp_mend_2">Уравнение Клапейрона-Менделеева также можно записать в виде:</string>
     <string name="sub_topic_label_izoprocess">Изопроцессы</string>
     <string name="sub_topic_body_izoprocess">Изопроцессы — термодинамические процессы, во время которых количество вещества газа и один из параметров состояния: давление, объём или температура — остаётся неизменным.
 </string>
-    <string name="description_image_izoterm">Изотермический процесс. По закону Бойля-Мариотта</string>
-    <string name="description_image_izohorn">Изохорный процесс. По закону Шарля</string>
-    <string name="description_image_izobarn">Изобарный процесс. По закону Гей-Люссака</string>
+    <string name="description_image_izoterm">Изотермический процесс. По закону Бойля-Мариотта:</string>
+    <string name="description_image_izohorn">Изохорный процесс. По закону Шарля:</string>
+    <string name="description_image_izobarn">Изобарный процесс. По закону Гей-Люссака:</string>
     <string name="sub_topic_label_graph_izoprocess">Графики изопроцессов</string>
     <string name="sub_topic_body_graph_izoprocess"></string>
-    <string name="description_image_graph_izoprocess">Графики изопроцессов</string>
+    <string name="description_image_graph_izoprocess">Графики изопроцессов:</string>
+    <string name="topic_label_term">Термодинамика</string>
+    <string name="sub_topic_label_term_1">Внутренняя энергия газа</string>
+    <string name="sub_topic_body_term_1"></string>
+    <string name="description_image_term_1">Кинетическая энергия поступательного движения молекулы:</string>
+    <string name="description_image_term_2">Внутренняя энергия есть сумма всех кинетических и потенциальных энергий молекулы:</string>
+    <string name="description_image_term_3">Модель идеального газа подразумевает, что молекулы газа не взаимодействуют друг с другом, поэтому вторым слагаемым можно пренебречь:</string>
+    <string name="description_image_term_4">Распишем кинетическую энергию как энергию поступательного движения молекулы:</string>
+    <string name="description_image_term_5">Число молекул N определим из формулы для количества вещества:</string>
+    <string name="description_image_term_6">Тогда внутренняя энергия газа определяется как:</string>
+    <string name="description_image_term_7">Произведение двух постоянных (числа Авогадро NA и постоянной Больцмана k) для удобства обозначим новой константой R — универсальной газовой постоянной."&#xA;"
+Тогда внутренняя энергия газа:</string>
+    <string name="description_image_term_8">Вспомнив уравнение Менделеева-Клапейрона, внутреннюю энергию газа можно представить в виде:</string>
+    <string name="description_image_term_9">Выведенные в данном пункте формулы справедливы для модели одноатомного идеального газа."&#xA;"
+В общем виде внутренняя энергия идеального газа определяется как(где i – число степеней свободы):</string>
+    <string name="sub_topic_label_term_2">Число степеней свободы</string>
+    <string name="sub_topic_body_term_2"></string>
+    <string name="description_image_term_10">Это количество независимых переменных, однозначно определяющих положение тела в пространстве.</string>
+    <string name="sub_topic_label_term_3">Изменение внутренней энергии газа</string>
+    <string name="sub_topic_body_term_3">Формулы в данном пункте справедливы для модели одноатомного идеального газа.</string>
+    <string name="description_image_term_11">При условии, что количество вещества остается постоянным, изменение внутренней энергии:</string>
+    <string name="description_image_term_12">Из уравнения Менделеева-Клапейрона, изменение внутренней энергии газа можно представить в виде:</string>
+    <string name="sub_topic_label_term_4">Работа газа</string>
+    <string name="sub_topic_body_term_4">Способы определения работы газа:</string>
+    <string name="description_image_term_13">1. При изобарном процессе (p = const):</string>
+    <string name="description_image_term_14">2. Работа A численно равна площади под графиком в pV-координатах:</string>
+    <string name="description_image_term_15">3. При непостоянном давлении:</string>
+    <string name="sub_topic_label_term_5">Работа над газом</string>
+    <string name="sub_topic_body_term_5"></string>
+    <string name="description_image_term_16">Запишем закон изменения кинетической энергии для рассмотренного выше поршня: изменение кинетической энергии поршня равно сумме работ всех сил, действующих на поршень. На поршень действует газ и некоторые внешние силы.
+</string>
+    <string name="description_image_term_17">Как правило, в термодинамике рассматриваются квазистатические процессы. Квазистатический процесс — это бесконечно медленный переход термодинамической системы из одного равновесного состояния в другое, при котором в любой момент времени физическое состояние системы бесконечно мало отличается от равновесного.
+</string>
+    <string name="description_image_term_18">Так как рассматриваются такие процессы, когда система всегда приходит в равновесие, то изменением кинетической энергии поршня можно пренебречь (устремить к нулю). Тогда работа газа:</string>
+    <string name="sub_topic_label_term_6">Первое начало термодинамики</string>
+    <string name="sub_topic_body_term_6">Понятие количества теплоты вводится в первом начале (или законе) термодинамики.</string>
+    <string name="description_image_term_19">Формулировка: количество теплоты, переданное газу, идет на изменение внутренней энергии газа и на совершение газом работы.</string>
+    <string name="description_image_term_20"></string>
+    <string name="sub_topic_label_term_7">Применение первого закона термодинамики к изопроцессам</string>
+    <string name="sub_topic_body_term_7">Изотермический процесс, T=const
+ΔU = 0, Q = A"&#xA;"
+Всё подведённое к газу тепло идёт на совершение газом работы."&#xA;"
+Изохорный процесс, V = const:"&#xA;"
+A = 0, Q = ΔU"&#xA;"
+Всё тепло, переданное газу, идёт на изменение его внутренней энергии."&#xA;"
+Изобарный процесс, p = const:"&#xA;"
+Q = ΔU + pΔV"&#xA;"
+</string>
+    <string name="sub_topic_label_term_8">Адиабатический процесс</string>
+    <string name="sub_topic_body_term_8">Процесс называется адиабатным (или адиабатическим), если он идет без теплообмена с окружающими телами."&#xA;"
+При адиабатном процессе Q = 0. Кривая, изображающая ход адиабатного процесса, называется адиабатой.</string>
+    <string name="description_image_term_21"></string>
+    <string name="sub_topic_label_term_9">Тепловая машина</string>
+    <string name="sub_topic_body_term_9">Тепловая машина (двигатель) — это циклически действующее устройство, превращающее теплоту в работу.</string>
+    <string name="description_image_term_22">Принципиальная схема тепловой машины состоит из следующих элементов.</string>
+    <string name="description_image_term_23">Чтобы заставить газ расширяться, преодолевая внешние силы, нужно нагреть его до температуры, которая существенно выше температуры окружающей среды. Для этого газ приводится в контакт с нагревателем."&#xA;"
+В процессе нагревания выделяется значительная энергия, часть которой идёт на нагревание газа. Газ получает от нагревателя количество теплоты Qнагр. Именно за счёт этого тепла двигатель совершает полезную работу Aцикла."&#xA;"
+Чтобы вернуть систему в исходное состояние, необходимо отвести часть энергии, то есть «отдать» ее холодильнику."&#xA;"
+Часть количества теплоты, которое было сообщено телу, тратится на совершение самой работы, а другая часть энергии отдается холодильнику. Закон сохранения энергии:</string>
+    <string name="description_image_term_24">Тогда работа цикла равна:</string>
+    <string name="sub_topic_label_term_10">Коэффициент полезного действия</string>
+    <string name="sub_topic_body_term_10">Коэффициент полезного действия (КПД) — характеристика эффективности системы (устройства, машины) в отношении преобразования или передачи энергии."&#xA;"
+КПД определяется отношением полезной работы, совершенной механизмом, ко всей затраченной работе (подведенной энергии) за то же время.</string>
+    <string name="description_image_term_25">КПД является безразмерной величиной и не может быть больше 1 или 100%.</string>
+    <string name="description_image_term_26">КПД для тепловой машины:</string>
+    <string name="description_image_term_27">Из закона сохранения энергии Aцикла = Qнагр – Qхол, тогда КПД тепловой машины:</string>
+    <string name="sub_topic_label_term_11">Цикл Карно</string>
+    <string name="sub_topic_body_term_11"></string>
+    <string name="description_image_term_28">В термодинамике цикл Карно — это идеальный циклический процесс, состоящий из двух адиабатных и двух изотермических процессов.</string>
+    <string name="description_image_term_29">1-2 изотермическое расширение (T = const);"&#xA;"
+2-3 адиабатическое расширение (Q = 0);"&#xA;"
+3-4 изотермическое сжатие (T = const);"&#xA;"
+4-1 адиабатическое сжатие (Q = 0)."&#xA;"
+Тепловая машина, работающая по циклу Карно, называется идеальной."&#xA;"
+КПД цикла Карно:</string>
 </resources>
