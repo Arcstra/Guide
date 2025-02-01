@@ -43,8 +43,7 @@ val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = GolosText,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        textAlign = TextAlign.Justify
+        fontSize = 16.sp
     ),
     labelLarge = TextStyle(
         fontFamily = PetrovSans,

@@ -1,5 +1,6 @@
 package com.example.guide.data
 
+import android.adservices.topics.Topic
 import com.example.guide.R
 
 
@@ -77,7 +78,8 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable.term_7, R.string.description_image_term_7),
                             Pair(R.drawable.term_8, R.string.description_image_term_8),
                             Pair(R.drawable.term_9, R.string.description_image_term_9),
-                        )
+                        ),
+                        under = null
                     ),
                     TopicUIState(name = R.string.sub_topic_label_term_2, content = null,
                         images = listOf(
@@ -159,6 +161,41 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable.tepl_8, R.string.description_image_tepl_8),
                             Pair(R.drawable.tepl_9, R.string.description_image_tepl_9),
                             Pair(R.drawable.tepl_10, R.string.description_image_tepl_10),
+                        )
+                    )
+                )
+            ),
+            Pair(
+                R.string.topic_label_par,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_par_1, under = R.string.sub_topic_under_par_1,
+                        images = listOf(
+                            Pair(R.drawable.par_1, R.string.description_image_par_1),
+                            Pair(R.drawable.par_2, R.string.description_image_par_2)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_par_2, under = R.string.sub_topic_under_par_2
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_par_3, under = R.string.sub_topic_under_par_3,
+                        images = listOf(
+                            Pair(R.drawable.par_3, R.string.description_image_par_3),
+                            Pair(R.drawable.par_4, R.string.description_image_par_4),
+                            Pair(R.drawable.par_5, R.string.description_image_par_5)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_par_4,
+                        images = listOf(
+                            Pair(R.drawable.par_6, R.string.description_image_par_6)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_par_5, under = R.string.sub_topic_under_par_5,
+                        images = listOf(
+                            Pair(R.drawable.par_7, R.string.description_image_par_7)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_par_6, under = R.string.sub_topic_under_par_6,
+                        images = listOf(
+                            Pair(R.drawable.par_8, R.string.description_image_par_8)
                         )
                     )
                 )

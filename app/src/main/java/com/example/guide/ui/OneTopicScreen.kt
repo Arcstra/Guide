@@ -71,6 +71,15 @@ fun OneTopicScreen(
                 }
             }
         }
+        if (topic.under != null) {
+            item {
+                Text(
+                    text = stringResource(topic.under),
+                    modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
+                    style = MaterialTheme.typography.bodyLarge
+                )
+            }
+        }
         item {
             Row(
                 modifier = Modifier.fillMaxWidth(),

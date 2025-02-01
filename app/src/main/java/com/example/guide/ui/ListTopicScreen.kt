@@ -147,7 +147,7 @@ fun ItemTopic(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = if (stringResource(itemTopic.first).length < 22) stringResource(itemTopic.first) else stringResource(itemTopic.first).substring(0, 22) + "...",
+                    text = stringResource(itemTopic.first),
                     style = MaterialTheme.typography.headlineMedium
                 )
                 Spacer(Modifier.weight(1f))
