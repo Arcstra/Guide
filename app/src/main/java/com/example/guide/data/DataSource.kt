@@ -199,6 +199,48 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                         )
                     )
                 )
+            ),
+            Pair(
+                R.string.topic_label_politrop,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_politrop_1,
+                        images = listOf(
+                            Pair(R.drawable.politrop_1, R.string.description_image_politrop_1),
+                            Pair(R.drawable.politrop_2, R.string.description_image_politrop_2),
+                            Pair(R.drawable.politrop_3, R.string.description_image_politrop_3),
+                            Pair(R.drawable.politrop_4, R.string.description_image_politrop_4)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_politrop_2, content = R.string.sub_topic_body_politrop_2,
+                        images = listOf(
+                            Pair(R.drawable.politrop_5, R.string.description_image_politrop_5),
+                            Pair(R.drawable.politrop_6, R.string.description_image_politrop_6),
+                            Pair(R.drawable.politrop_7, R.string.description_image_politrop_7),
+                            Pair(R.drawable.politrop_8, R.string.description_image_politrop_8),
+                            Pair(R.drawable.politrop_9, R.string.description_image_politrop_9),
+                            Pair(R.drawable.politrop_10, R.string.description_image_politrop_10),
+                            Pair(R.drawable.politrop_11, R.string.description_image_politrop_11),
+                            Pair(R.drawable.politrop_12, R.string.description_image_politrop_12),
+                            Pair(R.drawable.politrop_13, R.string.description_image_politrop_13),
+                            Pair(R.drawable.politrop_14, R.string.description_image_politrop_14),
+                            Pair(R.drawable.politrop_15, R.string.description_image_politrop_15),
+                            Pair(R.drawable.politrop_16, R.string.description_image_politrop_16),
+                            Pair(R.drawable.politrop_17, R.string.description_image_politrop_17),
+                            Pair(R.drawable.politrop_18, R.string.description_image_politrop_18)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_politrop_3, content = R.string.sub_topic_body_politrop_3,
+                        images = listOf(
+                            Pair(R.drawable.politrop_19, R.string.description_image_politrop_19),
+                            Pair(R.drawable.politrop_20, R.string.description_image_politrop_20)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_politrop_4,
+                        images = listOf(
+                            Pair(R.drawable.politrop_21, R.string.description_image_politrop_21)
+                        )
+                    )
+                )
             )
         )
     ),

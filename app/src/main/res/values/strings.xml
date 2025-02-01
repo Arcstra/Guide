@@ -171,4 +171,37 @@ Q = ΔU + pΔV"&#xA;"
 φ = 1 => пар насыщенный."&#xA;"
 φ > 1 => пар перенасыщенный, будет происходить конденсация до тех пор, пока влажность не станет равной 1 (то есть 100%)."&#xA;"
 Если в закрытом сосуде долгое время находится вода и пар, то пар насыщен.</string>
+    <string name="topic_label_politrop">Политропические процессы</string>
+    <string name="sub_topic_label_politrop_1">Теплоемкость газа</string>
+    <string name="description_image_politrop_1">Теплоемкость — физическая величина, характеризующая способность тел накапливать теплоту."&#xA;"
+Истинная теплоемкость показывает, сколько тепла нужно сообщить телу, чтобы повысить его температуру на один градус:</string>
+    <string name="description_image_politrop_2">Удельная теплоемкость — истинная теплоемкость, отнесенная к массе:</string>
+    <string name="description_image_politrop_3">Молярная теплоемкость — истинная теплоемкость, отнесенная к молярной массе:</string>
+    <string name="description_image_politrop_4">Количество теплоты, выраженное через молярную теплоемкость:</string>
+    <string name="sub_topic_label_politrop_2">Молярная теплоемкость газа в различных процессах</string>
+    <string name="sub_topic_body_politrop_2">Обратим внимание, что ниже рассмотрены молярные теплоемкости, а нижние индексы  при них означают принадлежность к изохорному, изобарному, изотермическому и адиабатному процессу соответственно.</string>
+    <string name="description_image_politrop_5">1. Изохорный процесс"&#xA;"
+Молярная теплоемкость для изохорного процесса:</string>
+    <string name="description_image_politrop_6">Внутренняя энергия и изменение внутренней энергии газа, выраженные через молярную теплоемкость для изохорного процесса:</string>
+    <string name="description_image_politrop_7">2. Изобарный процесс"&#xA;"
+Молярная теплоемкость для изобарного процесса:</string>
+    <string name="description_image_politrop_8">С учетом того, что при изобарном процессе</string>
+    <string name="description_image_politrop_9">запишем выражение для молярной теплоемкости в изобарном процессе:</string>
+    <string name="description_image_politrop_10">Можно заметить связь между молярной теплоемкостью Cp и Cv. Эта связь описывается формулой Майера:</string>
+    <string name="description_image_politrop_11">3. Изотермический процесс"&#xA;"
+Молярная теплоемкость в изотермическом процессе стремится к бесконечности:</string>
+    <string name="description_image_politrop_12">4. Адиабатический процесс
+Молярная теплоемкость при адиабатном процессе равна нулю:</string>
+    <string name="description_image_politrop_13">5. Процесс прямой пропорциональности (p ~ V)</string>
+    <string name="description_image_politrop_14">Запишем первое начало термодинамики:</string>
+    <string name="description_image_politrop_15">Изменение внутренней энергии:</string>
+    <string name="description_image_politrop_16">Работу распишем через геометрию (через разность площадей большого и маленького треугольников, см. рисунок):</string>
+    <string name="description_image_politrop_17">Тогда молярная теплоемкость для процесса прямой пропорциональности:</string>
+    <string name="description_image_politrop_18">Молярная теплоемкость для процесса прямой пропорциональности является средним арифметическим молярных теплоемкостей в изохорном и изобарном процессах:</string>
+    <string name="sub_topic_label_politrop_3">Политропический процесс</string>
+    <string name="sub_topic_body_politrop_3">Политропный процесс — термодинамический процесс изменения состояния физической системы, в течение которого сохраняется постоянство молярной теплоемкости.</string>
+    <string name="description_image_politrop_19">Уравнение политропы:</string>
+    <string name="description_image_politrop_20"></string>
+    <string name="sub_topic_label_politrop_4">Частные случаи политропного процесса</string>
+    <string name="description_image_politrop_21"></string>
 </resources>
