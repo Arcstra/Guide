@@ -8,7 +8,7 @@
     <string name="lorem_ipsum_more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="back">Назад</string>
     <string name="back_button_content_description">Вернуться к списку с темами.</string>
-    <string name="topic_label_mkt">Молекулярно-кинетическая теория</string>
+    <string name="topic_label_mkt">МКТ</string>
     <string name="sub_topic_label_mkt">Основные положения молекулярно-кинетической теории</string>
     <string name="sub_topic_body_mkt">1) Любое вещество состоит из мельчайших частиц — молекул и атомов. Они расположены в пространстве дискретно, то есть на некоторых расстояниях друг от друга."&#xA;"
 2) Атомы или молекулы вещества находятся в состоянии беспорядочного движения, которое никогда не прекращается."&#xA;"
@@ -35,13 +35,11 @@
     <string name="description_image_zelc_to_kelvin">Перевод из шкалы Цельсия в шкалу Кельвина:</string>
     <string name="description_image_0_kelvin">В классической физике принято считать, что при температуре 0 кельвинов молекулы перестают двигаться и тепловое движение прекращается:</string>
     <string name="sub_topic_label_kol_veshestva">Количество вещества</string>
-    <string name="sub_topic_body_kol_veshestva"></string>
     <string name="description_image_kol_veshestva">Количество вещества:</string>
     <string name="sub_topic_label_mol_massa">Молярная масса</string>
     <string name="sub_topic_body_mol_massa">Это масса одного моля вещества.</string>
     <string name="description_image_mol_massa_h2o">Например, молекула воды содержит два атома водорода и один атом кислорода и имеет химическую формулу H2O. Атомная масса водорода из таблицы Менделеева 1, атомная масса кислорода 16, причем атом водорода «повторяется» в молекуле 2 раза, а атом кислорода — один раз. Исходя из этого, найдем молярную массу молекулы воды:</string>
     <string name="sub_topic_label_yravn_gaz">Уравнение состояния идеального газа</string>
-    <string name="sub_topic_body_yravn_gaz"></string>
     <string name="description_image_yravn_klayp_mend_1">Уравнение Клапейрона-Менделеева, или уравнение состояния идеального газа, связывает три макроскопических параметра газа:</string>
     <string name="description_image_yravn_klayp_mend_2">Уравнение Клапейрона-Менделеева также можно записать в виде:</string>
     <string name="sub_topic_label_izoprocess">Изопроцессы</string>
@@ -51,11 +49,9 @@
     <string name="description_image_izohorn">Изохорный процесс. По закону Шарля:</string>
     <string name="description_image_izobarn">Изобарный процесс. По закону Гей-Люссака:</string>
     <string name="sub_topic_label_graph_izoprocess">Графики изопроцессов</string>
-    <string name="sub_topic_body_graph_izoprocess"></string>
     <string name="description_image_graph_izoprocess">Графики изопроцессов:</string>
     <string name="topic_label_term">Термодинамика</string>
     <string name="sub_topic_label_term_1">Внутренняя энергия газа</string>
-    <string name="sub_topic_body_term_1"></string>
     <string name="description_image_term_1">Кинетическая энергия поступательного движения молекулы:</string>
     <string name="description_image_term_2">Внутренняя энергия есть сумма всех кинетических и потенциальных энергий молекулы:</string>
     <string name="description_image_term_3">Модель идеального газа подразумевает, что молекулы газа не взаимодействуют друг с другом, поэтому вторым слагаемым можно пренебречь:</string>
@@ -68,7 +64,6 @@
     <string name="description_image_term_9">Выведенные в данном пункте формулы справедливы для модели одноатомного идеального газа."&#xA;"
 В общем виде внутренняя энергия идеального газа определяется как(где i – число степеней свободы):</string>
     <string name="sub_topic_label_term_2">Число степеней свободы</string>
-    <string name="sub_topic_body_term_2"></string>
     <string name="description_image_term_10">Это количество независимых переменных, однозначно определяющих положение тела в пространстве.</string>
     <string name="sub_topic_label_term_3">Изменение внутренней энергии газа</string>
     <string name="sub_topic_body_term_3">Формулы в данном пункте справедливы для модели одноатомного идеального газа.</string>
@@ -80,7 +75,6 @@
     <string name="description_image_term_14">2. Работа A численно равна площади под графиком в pV-координатах:</string>
     <string name="description_image_term_15">3. При непостоянном давлении:</string>
     <string name="sub_topic_label_term_5">Работа над газом</string>
-    <string name="sub_topic_body_term_5"></string>
     <string name="description_image_term_16">Запишем закон изменения кинетической энергии для рассмотренного выше поршня: изменение кинетической энергии поршня равно сумме работ всех сил, действующих на поршень. На поршень действует газ и некоторые внешние силы.
 </string>
     <string name="description_image_term_17">Как правило, в термодинамике рассматриваются квазистатические процессы. Квазистатический процесс — это бесконечно медленный переход термодинамической системы из одного равновесного состояния в другое, при котором в любой момент времени физическое состояние системы бесконечно мало отличается от равновесного.
@@ -89,7 +83,6 @@
     <string name="sub_topic_label_term_6">Первое начало термодинамики</string>
     <string name="sub_topic_body_term_6">Понятие количества теплоты вводится в первом начале (или законе) термодинамики.</string>
     <string name="description_image_term_19">Формулировка: количество теплоты, переданное газу, идет на изменение внутренней энергии газа и на совершение газом работы.</string>
-    <string name="description_image_term_20"></string>
     <string name="sub_topic_label_term_7">Применение первого закона термодинамики к изопроцессам</string>
     <string name="sub_topic_body_term_7">Изотермический процесс, T=const
 ΔU = 0, Q = A"&#xA;"
@@ -103,7 +96,6 @@ Q = ΔU + pΔV"&#xA;"
     <string name="sub_topic_label_term_8">Адиабатический процесс</string>
     <string name="sub_topic_body_term_8">Процесс называется адиабатным (или адиабатическим), если он идет без теплообмена с окружающими телами."&#xA;"
 При адиабатном процессе Q = 0. Кривая, изображающая ход адиабатного процесса, называется адиабатой.</string>
-    <string name="description_image_term_21"></string>
     <string name="sub_topic_label_term_9">Тепловая машина</string>
     <string name="sub_topic_body_term_9">Тепловая машина (двигатель) — это циклически действующее устройство, превращающее теплоту в работу.</string>
     <string name="description_image_term_22">Принципиальная схема тепловой машины состоит из следующих элементов.</string>
@@ -119,7 +111,6 @@ Q = ΔU + pΔV"&#xA;"
     <string name="description_image_term_26">КПД для тепловой машины:</string>
     <string name="description_image_term_27">Из закона сохранения энергии Aцикла = Qнагр – Qхол, тогда КПД тепловой машины:</string>
     <string name="sub_topic_label_term_11">Цикл Карно</string>
-    <string name="sub_topic_body_term_11"></string>
     <string name="description_image_term_28">В термодинамике цикл Карно — это идеальный циклический процесс, состоящий из двух адиабатных и двух изотермических процессов.</string>
     <string name="description_image_term_29">1-2 изотермическое расширение (T = const);"&#xA;"
 2-3 адиабатическое расширение (Q = 0);"&#xA;"
@@ -127,4 +118,25 @@ Q = ΔU + pΔV"&#xA;"
 4-1 адиабатическое сжатие (Q = 0)."&#xA;"
 Тепловая машина, работающая по циклу Карно, называется идеальной."&#xA;"
 КПД цикла Карно:</string>
+    <string name="topic_label_tepl">Тепловые явления</string>
+    <string name="sub_topic_label_tepl_1">Фазовый переход</string>
+    <string name="description_image_tepl_1">Фазовый переход — переход из одного агрегатного состояния в другое.</string>
+    <string name="description_image_tepl_2">В основном уделяется внимание четырём фазовым переходам:"&#xA;"
+Плавление — переход вещества из твердого состояния в жидкое."&#xA;"
+Кристаллизация (процесс, обратный плавлению) — переход вещества из жидкого состояния в твердое."&#xA;"
+Парообразование, или кипение — переход вещества из жидкого состояния в газообразное."&#xA;"
+Конденсация (процесс, обратный парообразованию) — переход вещества из газообразного состояния в жидкое."&#xA;"
+Процессы плавления, кипения, конденсации, кристаллизации происходят при постоянной температуре."&#xA;"
+</string>
+    <string name="description_image_tepl_3">Количество теплоты, необходимое для нагрева/охлаждения:</string>
+    <string name="description_image_tepl_4">Количество теплоты, необходимое для плавления/кристаллизации:</string>
+    <string name="description_image_tepl_5">Количество теплоты, необходимое для парообразования/конденсации:</string>
+    <string name="description_image_tepl_6">Количество теплоты, необходимое для сгорания топлива:</string>
+    <string name="sub_topic_label_tepl_2">Уравнение теплового баланса</string>
+    <string name="description_image_tepl_7">Рассмотрим два тела (обозначим их 1 и 2), которые образуют замкнутую систему. Это означает, что данные тела могут обмениваться энергией только друг с другом, но не с другими телами. Считаем также, что механическая работа не совершается — внутренняя энергия тел меняется только в процессе теплообмена."&#xA;"
+Имеется фундаментальный закон природы, подтверждаемый всевозможными экспериментами, — закон сохранения энергии. Он гласит, что полная энергия замкнутой системы тел не меняется со временем."&#xA;"
+В данном случае закон сохранения энергии утверждает, что внутренняя энергия нашей системы будет оставаться одной и той же:</string>
+    <string name="description_image_tepl_8">Если изменение внутренней энергии равно ΔU1, а изменение внутренней энергии второго тела равно ΔU2, то суммарное изменение внутренней энергии будет равно нулю:</string>
+    <string name="description_image_tepl_9">Но ΔU1 = Q1 — количество теплоты, полученное первым телом в процессе теплообмена; аналогично ΔU2 = Q2 — количество теплоты, полученное вторым телом в процессе теплообмена. Стало быть,</string>
+    <string name="description_image_tepl_10">Полученное соотношение называется уравнением теплового баланса. В общем случае, когда n тел образуют замкнутую систему и обмениваются энергией только с помощью теплопередачи, из закона сохранения энергии с помощью тех же рассуждений получаем общее уравнение теплового баланса:</string>
 </resources>

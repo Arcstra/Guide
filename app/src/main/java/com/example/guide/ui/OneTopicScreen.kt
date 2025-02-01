@@ -51,11 +51,15 @@ fun OneTopicScreen(
                 style = MaterialTheme.typography.headlineLarge,
                 textAlign = TextAlign.Center
             )
-            Text(
-                text = stringResource(topic.content),
-                modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
-                style = MaterialTheme.typography.bodyLarge
-            )
+        }
+        if (topic.content != null) {
+            item {
+                Text(
+                    text = stringResource(topic.content),
+                    modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
+                    style = MaterialTheme.typography.bodyLarge
+                )
+            }
         }
         item {
             Column {
@@ -81,7 +85,7 @@ fun OneTopicScreen(
 @Composable
 fun TopicImage(
     idImage: Int,
-    @StringRes description: Int,
+    @StringRes description: Int?,
     modifier: Modifier = Modifier
 ) {
     val configuration = LocalConfiguration.current
@@ -95,14 +99,15 @@ fun TopicImage(
     val finalHeight = (intrinsicSize.height * minOf(1.0f, 1.0f * screenWidth / intrinsicSize.width))
 
     Column(modifier) {
-        Text(
-            text = stringResource(description),
-            modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
-            style = MaterialTheme.typography.bodyLarge
-        )
+        if (description != null)
+            Text(
+                text = stringResource(description),
+                modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
+                style = MaterialTheme.typography.bodyLarge
+            )
         Image(
             painter = image,
-            contentDescription = stringResource(description),
+            contentDescription = if (description != null) stringResource(description) else null,
             modifier = Modifier
                 .size(finalWidth.dp, finalHeight.dp)
                 .padding(bottom = dimensionResource(R.dimen.padding_small)),
@@ -164,7 +169,7 @@ fun PreviewOneTopic1() {
     GuideTheme {
         OneTopicScreen(
             {},
-            TopicUIState(name = R.string.sub_topic_label_graph_izoprocess, content = R.string.sub_topic_body_graph_izoprocess,
+            TopicUIState(name = R.string.sub_topic_label_graph_izoprocess, content = null,
                 images = listOf(
                     Pair(R.drawable.graph_izoprocess, R.string.description_image_graph_izoprocess)
                 )
@@ -179,7 +184,7 @@ fun PreviewOneTopic2() {
     GuideTheme {
         OneTopicScreen(
             {},
-            TopicUIState(name = R.string.sub_topic_label_term_2, content = R.string.sub_topic_body_term_2,
+            TopicUIState(name = R.string.sub_topic_label_term_2, content = null,
                 images = listOf(
                     Pair(R.drawable.term_10, R.string.description_image_term_10)
                 )
@@ -194,7 +199,7 @@ fun PreviewOneTopic3() {
     GuideTheme {
         OneTopicScreen(
             {},
-            TopicUIState(name = R.string.sub_topic_label_term_5, content = R.string.sub_topic_body_term_5,
+            TopicUIState(name = R.string.sub_topic_label_term_5, content = null,
                 images = listOf(
                     Pair(R.drawable.term_16, R.string.description_image_term_16),
                     Pair(R.drawable.term_17, R.string.description_image_term_17),

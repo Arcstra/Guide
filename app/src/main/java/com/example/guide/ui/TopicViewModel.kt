@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 class TopicViewModel: ViewModel() {
-    private val _uiState = MutableStateFlow(TopicUIState())
+    private val _uiState = MutableStateFlow(TopicUIState(content = null))
     val uiState: StateFlow<TopicUIState> = _uiState.asStateFlow()
 
     fun setAllInfo(topic: TopicUIState) {

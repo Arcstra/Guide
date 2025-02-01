@@ -5,7 +5,7 @@ import com.example.guide.R
 
 data class TopicUIState(
     @StringRes val name: Int = R.string.lorem,
-    @StringRes val content: Int = R.string.lorem_ipsum,
+    @StringRes val content: Int?,
     /** Ссылка на изображение и на подпись к ней */
-    val images: List<Pair<Int, Int>> = listOf()
+    val images: List<Pair<Int, Int?>> = listOf()
 )
