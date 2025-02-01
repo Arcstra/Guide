@@ -37,7 +37,8 @@ val Typography = Typography(
     headlineSmall = TextStyle(
         fontFamily = PetrovSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 20.sp
+        fontSize = 20.sp,
+        textAlign = TextAlign.Center
     ),
     bodyLarge = TextStyle(
         fontFamily = GolosText,
