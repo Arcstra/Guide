@@ -372,6 +372,29 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                         )
                     )
                 )
+            ),
+            Pair(
+                R.string.topic_label_plos,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_plos_1,
+                        images = listOf(
+                            Pair(R.drawable.plos_1, R.string.description_image_plos_1),
+                            Pair(R.drawable.plos_2, R.string.description_image_plos_2),
+                            Pair(R.drawable.plos_3, R.string.description_image_plos_3),
+                            Pair(R.drawable.plos_4, R.string.description_image_plos_4),
+                            Pair(R.drawable.plos_5, R.string.description_image_plos_5),
+                            Pair(R.drawable.plos_6, R.string.description_image_plos_6),
+                            Pair(R.drawable.plos_7, R.string.description_image_plos_7),
+                            Pair(R.drawable.plos_8, R.string.description_image_plos_8),
+                            Pair(R.drawable.plos_9, R.string.description_image_plos_9),
+                            Pair(R.drawable.plos_10, R.string.description_image_plos_10),
+                            Pair(R.drawable.plos_11, R.string.description_image_plos_11),
+                            Pair(R.drawable.plos_12, R.string.description_image_plos_12),
+                            Pair(R.drawable.plos_13, R.string.description_image_plos_13),
+                            Pair(R.drawable.plos_14, R.string.description_image_plos_14)
+                        )
+                    )
+                )
             )
         )
     )

@@ -466,4 +466,20 @@ a2=c⋅ca,  b2=c⋅cb.</string>
     <string name="description_image_okr_11">Условие вписанности: Сумма противоположных углов вписанного четырехугольника равна 180°."&#xA;"
 •  Описанный четырехугольник: Четырехугольник, все стороны которого касаются окружности.</string>
     <string name="sub_topic_under_okr_3">Условие описанности: Суммы длин противоположных сторон описанного четырехугольника равны.</string>
+    <string name="topic_label_plos">Площади</string>
+    <string name="sub_topic_label_plos_1">Площади основных фигур</string>
+    <string name="description_image_plos_1">1)Площадь прямоугольника: S = ab, где a и b – длины смежных сторон.</string>
+    <string name="description_image_plos_2">2)Площадь параллелограмма: S = ah, где a – длина стороны, h – высота, проведенная к этой стороне.</string>
+    <string name="description_image_plos_3">S = absin(α), где a и b – длины смежных сторон, α – угол между ними.</string>
+    <string name="description_image_plos_4">3)Площадь ромба: S = ½d1d2, где d1 и d2 диагонали ромба.</string>
+    <string name="description_image_plos_5">4)Площадь треугольника: S = ½ah, где a – длина основания, h – высота, проведенная к этому основанию.</string>
+    <string name="description_image_plos_6">S = ½ absin(γ), где a и b – длины двух сторон, γ – угол между ними.</string>
+    <string name="description_image_plos_7">S = a*b*c/4R, где a, b, c - стороны треугольника, R - радиус описанной окружности.</string>
+    <string name="description_image_plos_8">S = pr, где p - полупериметр, r - радиус вписанной окружности.</string>
+    <string name="description_image_plos_9">Для прямоугольного треугольника S = ½ab, где a и b катеты.</string>
+    <string name="description_image_plos_10">S = √(rrarbrc), где r - радиус вписанной окружности, ra, rb,  rc - радиусы вневписанных окружностей.</string>
+    <string name="description_image_plos_11">5)Площадь трапеции: S = ½(a + b)h, где a и b – длины оснований, h – высота.</string>
+    <string name="description_image_plos_12">• Формула Герона для площади треугольника: S = √(p(p - a)(p - b)(p - c)), где a, b, c – длины сторон треугольника, p – полупериметр (p = (a + b + c)/2).</string>
+    <string name="description_image_plos_13">• Площадь круга: S = πr², где r – радиус круга.</string>
+    <string name="description_image_plos_14">Площадь сектора: S = (πr²α) / 360° или S = (1/2)lr, где r – радиус, α – центральный угол в градусах, l – длина дуги сектора.</string>
 </resources>
