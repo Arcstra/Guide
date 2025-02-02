@@ -267,6 +267,54 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                         )
                     )
                 )
+            ),
+            Pair(
+                R.string.topic_label_treyg,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_treyg_1,
+                        images = listOf(
+                            Pair(R.drawable.treyg_1, R.string.description_image_treyg_1),
+                            Pair(R.drawable.treyg_2, R.string.description_image_treyg_2),
+                            Pair(R.drawable.treyg_3, R.string.description_image_treyg_3),
+                            Pair(R.drawable.treyg_4, R.string.description_image_treyg_4)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_treyg_2, under = R.string.sub_topic_under_treyg_2,
+                        images = listOf(
+                            Pair(R.drawable.treyg_5, R.string.description_image_treyg_5),
+                            Pair(R.drawable.treyg_6, R.string.description_image_treyg_6)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_treyg_3,
+                        images = listOf(
+                            Pair(R.drawable.treyg_7, R.string.description_image_treyg_7)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_treyg_4,
+                        images = listOf(
+                            Pair(R.drawable.treyg_8, R.string.description_image_treyg_8),
+                            Pair(R.drawable.treyg_9, R.string.description_image_treyg_9),
+                            Pair(R.drawable.treyg_10, R.string.description_image_treyg_10)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_treyg_5,
+                        images = listOf(
+                            Pair(R.drawable.treyg_11, R.string.description_image_treyg_11),
+                            Pair(R.drawable.treyg_12, R.string.description_image_treyg_12),
+                            Pair(R.drawable.treyg_13, R.string.description_image_treyg_13)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_treyg_6, under = R.string.sub_topic_under_treyg_6,
+                        images = listOf(
+                            Pair(R.drawable.treyg_14, R.string.description_image_treyg_14)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_treyg_7,
+                        images = listOf(
+                            Pair(R.drawable.treyg_15, R.string.description_image_treyg_15)
+                        )
+                    )
+                )
             )
         )
     )
