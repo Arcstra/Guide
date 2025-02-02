@@ -395,6 +395,13 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                         )
                     )
                 )
+            ),
+            Pair(
+                R.string.topic_label_kord,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_kord_1, under = R.string.sub_topic_under_kord_1),
+                    TopicUIState(name = R.string.sub_topic_label_kord_2, under = R.string.sub_topic_under_kord_2)
+                )
             )
         )
     )
