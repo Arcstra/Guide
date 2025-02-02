@@ -1,6 +1,5 @@
 package com.example.guide.data
 
-import android.adservices.topics.Topic
 import com.example.guide.R
 
 
@@ -244,10 +243,31 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
             )
         )
     ),
-    /** Список тем по математике */
+    /** Список тем по геометрии */
     Pair(
-        R.string.mathematics,
+        R.string.geometry,
         listOf(
+            Pair(
+                R.string.topic_label_aks,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_aks_1,
+                        images = listOf(
+                            Pair(R.drawable.aks_1, R.string.description_image_aks_1),
+                            Pair(R.drawable.aks_2, R.string.description_image_aks_2),
+                            Pair(R.drawable.aks_3, R.string.description_image_aks_3),
+                            Pair(R.drawable.aks_4, R.string.description_image_aks_4)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_aks_2, under = R.string.sub_topic_under_aks_2),
+                    TopicUIState(name = R.string.sub_topic_label_aks_3, under = R.string.sub_topic_under_aks_3,
+                        images = listOf(
+                            Pair(R.drawable.aks_5, R.string.description_image_aks_5),
+                            Pair(R.drawable.aks_6, R.string.description_image_aks_6),
+                            Pair(R.drawable.aks_7, R.string.description_image_aks_7)
+                        )
+                    )
+                )
+            )
         )
     )
 )

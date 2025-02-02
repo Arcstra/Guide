@@ -2,7 +2,7 @@
     <string name="app_name">Guide</string>
     <string name="lorem">Lorem</string>
     <string name="physics">Физика</string>
-    <string name="mathematics">Математика</string>
+    <string name="geometry">Геометрия</string>
     <string name="expand_button_content_description">Разверните или сверните список тем по предмету.</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="lorem_ipsum_more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
@@ -204,4 +204,52 @@ Q = ΔU + pΔV"&#xA;"
     <string name="description_image_politrop_20"></string>
     <string name="sub_topic_label_politrop_4">Частные случаи политропного процесса</string>
     <string name="description_image_politrop_21"></string>
+    <string name="topic_label_aks">Осн. понятия и аксиомы</string>
+    <string name="sub_topic_label_aks_1">Начальные понятия</string>
+    <string name="description_image_aks_1">Точка — это геометрическая фигура, из которой состоят все остальные геометрические фигуры. Точка не имеет размера и формы. Её нельзя разделить на части. Точку ставят, слегка касаясь поверхности карандашом.</string>
+    <string name="description_image_aks_2">Прямая — это не искривляющаяся линия, которая не имеет ни начала, ни конца."&#xA;"
+Свойства: 1)Через любую точку можно провести бесконечно много прямых."&#xA;"
+Отрезок — это часть прямой, ограниченная с двух сторон. Отрезок нельзя продолжить ни в одну сторону."&#xA;"
+Свойства: 1) Равные отрезки имеют равные длины. 2)Часть отрезка всегда имеет длину, которая меньше длины отрезка. 3)Если точки на отрезке делят отрезок на части, то длина отрезка равна сумме длин этих частей."&#xA;"
+Луч — часть прямой, состоящая из данной точки и из всех точек прямой, лежащих по одну сторону от данной точки."&#xA;"
+Свойства: 1)На любом луче от его вершины возможно отложить отрезок определённой длины, и причём, лишь один.</string>
+    <string name="description_image_aks_3">Угол — геометрическая фигура, образованная двумя лучами (сторонами угла), выходящими из одной точки (которая называется вершиной угла)."&#xA;"
+Биссектриса угла - луч, который исходит из вершины угла и делить угол на две равные части.</string>
+    <string name="description_image_aks_4">Смежные углы - углы, у которых одна сторона общая, а две другие являются продолжениями друг друга."&#xA;"
+Вертикальные углы — два угла на плоскости, которые образуются при пересечении двух прямых и не имеющие общих сторон.</string>
+    <string name="sub_topic_label_aks_2">Аксиомы планиметрии</string>
+    <string name="sub_topic_under_aks_2">Основные аксиомы (принадлежности, порядка, параллельности)."&#xA;"
+Аксиома 1.1. Какова бы ни была прямая, существуют точки, принадлежащие этой прямой, и точки, не принадлежащие ей."&#xA;"
+Аксиома 1.2. Через любые две точки можно провести прямую, и только одну."&#xA;"
+Аксиома 2.1. Из трех точек на прямой одна и только одна лежит между двумя другими."&#xA;"
+Аксиома 2.2. Прямая, лежащая в плоскости, разбивает эту плоскость на две полуплоскости. Если концы какого-нибудь отрезка принадлежат одной полуплоскости, то отрезок не пересекает прямую. Если концы отрезка принадлежат разным полуплоскостям, то отрезок пересекает прямую."&#xA;"
+Аксиома 3.1. Каждый отрезок имеет определенную длину, больше нуля. Длина отрезка равна сумме длин частей, на которые он разбивается любой его точкой."&#xA;"
+Аксиома 3.2. Каждый угол имеет определенную градусную меру, большую нуля. Развернутый угол равен 180°. Градусная мера угла равна сумме градусных мер углов, на которые он разбивается любым лучом, проходящим между его сторонами."&#xA;"
+Аксиома 4.1. На любой полупрямой от ее начальной точки можно отложить отрезок заданной длины, и только один."&#xA;"
+Аксиома 4.2. От любой полупрямой в заданную полуплоскость можно отложить угол заданной градусной мерой, меньшей 180°, и только один."&#xA;"
+Аксиома 4.3. Каков бы ни был треугольник, существует равный ему треугольник в заданном расположении относительно данной полупрямой."&#xA;"
+  •  Аксиома параллельных прямых."&#xA;"
+Аксиома 5.1. Через точку, не лежащую на данной прямой, можно провести на плоскости не более одной прямой, параллельной данной.</string>
+    <string name="sub_topic_label_aks_3">Основные теоремы</string>
+    <string name="description_image_aks_5">Свойство смежных углов:"&#xA;"
+Сумма смежных углов всегда равна 180°.</string>
+    <string name="description_image_aks_6">Свойство вертикальных углов:"&#xA;"
+Вертикальные углы всегда равны друг другу.</string>
+    <string name="description_image_aks_7">Свойства параллельных прямых:"&#xA;"
+1. Если прямая пересекает одну из двух параллельных прямых, то она пересекает и другую. "&#xA;"
+2. Если две прямые параллельны третьей прямой, то они параллельны между собой."&#xA;"
+3. Если прямая перпендикулярна одной из параллельных прямых, то она перпендикулярна и другой."&#xA;"
+Углы, образованные секущей параллельных прямых:"&#xA;"
+Сами по себе параллельные прямые не пересекаются, а значит, между ними нет углов, но если пересечь две параллельные прямые секущей, то получится ряд углов, которые обладают определёнными свойствами и названиями.</string>
+    <string name="sub_topic_under_aks_3">1. Накрест лежащие углы — это два угла во внутренней области параллельных прямых и на разных сторонах секущей. Накрест лежащие углы попарно равны."&#xA;"
+Это углы 4 и 6, а также 1 и 7. "&#xA;"
+2. Соответственные углы – это два угла, один во внешней области, один во внутренней области, и которые лежат на одной стороне секущей. Соответственные углы равны."&#xA;"
+Это углы 1 и 5; 2 и 6; 3 и 7; 4 и 8. "&#xA;"
+3. Односторонние углы лежат по одну сторону от всей секущей внутри параллельных прямых. Сумма односторонних углов равна 180°."&#xA;"
+Это углы 1 и 6, а также 4 и 7."&#xA;"
+Признаки параллельных прямых: "&#xA;"
+1. Если при пересечении двух прямых секущей накрест лежащие углы равны, то прямые параллельны. "&#xA;"
+2. Если при пересечении двух прямых секущей соответственные углы равны, то прямые параллельны. "&#xA;"
+3. Если при пересечении двух прямых секущей сумма односторонних углов равна 180°, то прямые параллельны. "&#xA;"
+4. Если две прямые перпендикулярны третьей прямой, то они параллельны.</string>
 </resources>
