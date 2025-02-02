@@ -315,6 +315,34 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                         )
                     )
                 )
+            ),
+            Pair(
+                R.string.topic_label_chet,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_chet_1, under = R.string.sub_topic_under_chet_1,
+                        images = listOf(
+                            Pair(R.drawable.chet_1, R.string.description_image_chet_1)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_chet_2, under = R.string.sub_topic_under_chet_2,
+                        images = listOf(
+                            Pair(R.drawable.chet_2, R.string.description_image_chet_2),
+                            Pair(R.drawable.chet_3, R.string.description_image_chet_3),
+                            Pair(R.drawable.chet_4, R.string.description_image_chet_4)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_chet_3, under = R.string.sub_topic_under_chet_3,
+                        images = listOf(
+                            Pair(R.drawable.chet_5, R.string.description_image_chet_5),
+                            Pair(R.drawable.chet_6, R.string.description_image_chet_6)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_chet_4,
+                        images = listOf(
+                            Pair(R.drawable.chet_7, R.string.description_image_chet_7)
+                        )
+                    )
+                )
             )
         )
     )
