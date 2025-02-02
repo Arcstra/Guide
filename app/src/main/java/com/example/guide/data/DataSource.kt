@@ -1,6 +1,5 @@
 package com.example.guide.data
 
-import android.adservices.topics.Topic
 import com.example.guide.R
 
 
@@ -34,8 +33,9 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable._0_kelvin, R.string.description_image_0_kelvin)
                         )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_kol_veshestva, content = null,
+                    TopicUIState(name = R.string.sub_topic_label_kol_veshestva,
                         images = listOf(
+                            Pair(R.drawable.mol, R.string.description_image_mol),
                             Pair(R.drawable.kol_veshestva, R.string.description_image_kol_veshestva)
                         )
                     ),
@@ -44,7 +44,7 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable.mol_massa_h2o, R.string.description_image_mol_massa_h2o)
                         )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_yravn_gaz, content = null,
+                    TopicUIState(name = R.string.sub_topic_label_yravn_gaz,
                         images = listOf(
                             Pair(R.drawable.yravn_klayp_mend_1, R.string.description_image_yravn_klayp_mend_1),
                             Pair(R.drawable.yravn_klayp_mend_2, R.string.description_image_yravn_klayp_mend_2)
@@ -57,7 +57,7 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable.izobarn, R.string.description_image_izobarn)
                         )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_graph_izoprocess, content = null,
+                    TopicUIState(name = R.string.sub_topic_label_graph_izoprocess,
                         images = listOf(
                             Pair(R.drawable.graph_izoprocess, R.string.description_image_graph_izoprocess)
                         )
@@ -67,7 +67,7 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
             Pair(
                 R.string.topic_label_term,
                 listOf(
-                    TopicUIState(name = R.string.sub_topic_label_term_1, content = null,
+                    TopicUIState(name = R.string.sub_topic_label_term_1, under = R.string.sub_topic_under_term_1,
                         images = listOf(
                             Pair(R.drawable.term_1, R.string.description_image_term_1),
                             Pair(R.drawable.term_2, R.string.description_image_term_2),
@@ -78,10 +78,9 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable.term_7, R.string.description_image_term_7),
                             Pair(R.drawable.term_8, R.string.description_image_term_8),
                             Pair(R.drawable.term_9, R.string.description_image_term_9),
-                        ),
-                        under = null
+                        )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_term_2, content = null,
+                    TopicUIState(name = R.string.sub_topic_label_term_2,
                         images = listOf(
                             Pair(R.drawable.term_10, R.string.description_image_term_10)
                         )
@@ -99,32 +98,32 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                             Pair(R.drawable.term_15, R.string.description_image_term_15)
                         )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_term_5, content = null,
+                    TopicUIState(name = R.string.sub_topic_label_term_5,
                         images = listOf(
                             Pair(R.drawable.term_16, R.string.description_image_term_16),
-                            Pair(R.drawable.term_17, R.string.description_image_term_17),
-                            Pair(R.drawable.term_18, R.string.description_image_term_18)
+                            Pair(R.drawable.term_17, R.string.description_image_term_17)
                         )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_term_6, content = R.string.sub_topic_body_term_6,
+                    TopicUIState(name = R.string.sub_topic_label_term_6,
                         images = listOf(
-                            Pair(R.drawable.term_19, R.string.description_image_term_19),
-                            Pair(R.drawable.term_20, null)
+                            Pair(R.drawable.term_18, R.string.description_image_term_18),
+                            Pair(R.drawable.term_19, R.string.description_image_term_19)
                         )
                     ),
                     TopicUIState(name = R.string.sub_topic_label_term_7, content = R.string.sub_topic_body_term_7,
                         images = listOf()
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_term_8, content = R.string.sub_topic_body_term_8,
+                    TopicUIState(name = R.string.sub_topic_label_term_8,
                         images = listOf(
-                            Pair(R.drawable.term_21, null)
+                            Pair(R.drawable.term_20, R.string.description_image_term_20)
                         )
                     ),
-                    TopicUIState(name = R.string.sub_topic_label_term_9, content = R.string.sub_topic_body_term_9,
+                    TopicUIState(name = R.string.sub_topic_label_term_9,
                         images = listOf(
+                            Pair(R.drawable.term_21, R.string.description_image_term_21),
                             Pair(R.drawable.term_22, R.string.description_image_term_22),
                             Pair(R.drawable.term_23, R.string.description_image_term_23),
-                            Pair(R.drawable.term_24, R.string.description_image_term_24)
+                            Pair(R.drawable.term_24, null)
                         )
                     ),
                     TopicUIState(name = R.string.sub_topic_label_term_10, content = R.string.sub_topic_body_term_10,

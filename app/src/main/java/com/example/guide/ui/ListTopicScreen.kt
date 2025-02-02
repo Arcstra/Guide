@@ -57,7 +57,7 @@ fun ListSubjectTopic(
     topicOneSubject: Pair<Int, List<Pair<Int, List<TopicUIState>>>>,
     modifier: Modifier = Modifier
 ) {
-    var expanded by remember { mutableStateOf(false) }
+    var expanded by remember { mutableStateOf(true) }
     Column(
         modifier = modifier.animateContentSize(
             animationSpec = spring(
@@ -144,13 +144,14 @@ fun ItemTopic(
             )
         ) {
             Row(
+                modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
                     text = stringResource(itemTopic.first),
+                    modifier = Modifier.weight(1f, fill = true),
                     style = MaterialTheme.typography.headlineMedium
                 )
-                Spacer(Modifier.weight(1f))
                 Icon(
                     imageVector = if (expanded) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore,
                     contentDescription = stringResource(R.string.expand_button_content_description)

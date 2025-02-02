@@ -62,7 +62,9 @@ fun OneTopicScreen(
             }
         }
         item {
-            Column {
+            Column(
+                modifier = Modifier.fillMaxWidth()
+            ) {
                 topic.images.forEach {
                     TopicImage(
                         idImage = it.first,
@@ -75,7 +77,9 @@ fun OneTopicScreen(
             item {
                 Text(
                     text = stringResource(topic.under),
-                    modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_small)),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = dimensionResource(R.dimen.padding_small)),
                     style = MaterialTheme.typography.bodyLarge
                 )
             }
