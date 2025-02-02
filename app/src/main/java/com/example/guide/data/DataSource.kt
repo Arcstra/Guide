@@ -1,5 +1,6 @@
 package com.example.guide.data
 
+import android.adservices.topics.Topic
 import com.example.guide.R
 
 
@@ -340,6 +341,34 @@ val topic: List<Pair<Int, List<Pair<Int, List<TopicUIState>>>>> = listOf(
                     TopicUIState(name = R.string.sub_topic_label_chet_4,
                         images = listOf(
                             Pair(R.drawable.chet_7, R.string.description_image_chet_7)
+                        )
+                    )
+                )
+            ),
+            Pair(
+                R.string.topic_label_okr,
+                listOf(
+                    TopicUIState(name = R.string.sub_topic_label_okr_1, under = R.string.sub_topic_under_okr_1,
+                        images = listOf(
+                            Pair(R.drawable.okr_1, R.string.description_image_okr_1),
+                            Pair(R.drawable.okr_2, R.string.description_image_okr_2)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_okr_2,
+                        images = listOf(
+                            Pair(R.drawable.okr_3, R.string.description_image_okr_3),
+                            Pair(R.drawable.okr_4, R.string.description_image_okr_4),
+                            Pair(R.drawable.okr_5, R.string.description_image_okr_5),
+                            Pair(R.drawable.okr_6, R.string.description_image_okr_6),
+                            Pair(R.drawable.okr_7, R.string.description_image_okr_7),
+                            Pair(R.drawable.okr_8, R.string.description_image_okr_8),
+                            Pair(R.drawable.okr_9, R.string.description_image_okr_9)
+                        )
+                    ),
+                    TopicUIState(name = R.string.sub_topic_label_okr_3, under = R.string.sub_topic_under_okr_3,
+                        images = listOf(
+                            Pair(R.drawable.okr_10, R.string.description_image_okr_10),
+                            Pair(R.drawable.okr_11, R.string.description_image_okr_11)
                         )
                     )
                 )
