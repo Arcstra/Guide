@@ -1,11 +1,13 @@
 package com.example.guide.ui.theme
 
 import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.style.LineBreak
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.unit.sp
 import com.example.guide.R
 
@@ -27,7 +29,8 @@ val Typography = Typography(
     headlineLarge = TextStyle(
         fontFamily = PetrovSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 28.sp
+        fontSize = 28.sp,
+        lineBreak = LineBreak.Heading
     ),
     headlineMedium = TextStyle(
         fontFamily = PetrovSans,
@@ -43,7 +46,9 @@ val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = GolosText,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+        fontSize = 16.sp,
+        //textAlign = TextAlign.Justify,
+        textIndent = TextIndent(firstLine = 8.sp, restLine = 0.sp)
     ),
     labelLarge = TextStyle(
         fontFamily = PetrovSans,
