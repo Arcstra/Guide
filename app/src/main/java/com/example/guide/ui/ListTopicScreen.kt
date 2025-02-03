@@ -36,6 +36,8 @@ import com.example.guide.ui.theme.GuideTheme
 @Composable
 fun ListTopicScreen(
     showOneTopic: (TopicUIState) -> Unit,
+    editButtonState: (Int, Boolean) -> Unit,
+    buttonState: Map<Int, Boolean>,
     modifier: Modifier = Modifier
 ) {
     val topicSomeSubjects = topic
@@ -44,6 +46,8 @@ fun ListTopicScreen(
         items(topicSomeSubjects) {
             ListSubjectTopic(
                 showOneTopic = showOneTopic,
+                editButtonState= editButtonState,
+                buttonState = buttonState,
                 topicOneSubject = it,
                 modifier = Modifier.padding(dimensionResource(R.dimen.padding_small))
             )
@@ -54,10 +58,12 @@ fun ListTopicScreen(
 @Composable
 fun ListSubjectTopic(
     showOneTopic: (TopicUIState) -> Unit,
+    editButtonState: (Int, Boolean) -> Unit,
+    buttonState: Map<Int, Boolean>,
     topicOneSubject: Pair<Int, List<Pair<Int, List<TopicUIState>>>>,
     modifier: Modifier = Modifier
 ) {
-    var expanded by remember { mutableStateOf(true) }
+    var expanded by remember { mutableStateOf(buttonState.getOrDefault(topicOneSubject.first, false)) }
     Column(
         modifier = modifier.animateContentSize(
             animationSpec = spring(
@@ -67,7 +73,10 @@ fun ListSubjectTopic(
         )
     ) {
         Button(
-            onClick = { expanded = !expanded },
+            onClick = {
+                expanded = !expanded
+                editButtonState(topicOneSubject.first, expanded)
+            },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = dimensionResource(R.dimen.padding_small)),
@@ -93,6 +102,8 @@ fun ListSubjectTopic(
         if (expanded) {
             ListTopic(
                 showOneTopic = showOneTopic,
+                editButtonState = editButtonState,
+                buttonState = buttonState,
                 listTopic = topicOneSubject.second
             )
         }
@@ -102,6 +113,8 @@ fun ListSubjectTopic(
 @Composable
 fun ListTopic(
     showOneTopic: (TopicUIState) -> Unit,
+    editButtonState: (Int, Boolean) -> Unit,
+    buttonState: Map<Int, Boolean>,
     listTopic: List<Pair<Int, List<TopicUIState>>>,
     modifier: Modifier = Modifier
 ) {
@@ -109,6 +122,8 @@ fun ListTopic(
         listTopic.forEach {
             ItemTopic(
                 showOneTopic = showOneTopic,
+                editButtonState = editButtonState,
+                buttonState = buttonState,
                 itemTopic = it,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -121,10 +136,12 @@ fun ListTopic(
 @Composable
 fun ItemTopic(
     showOneTopic: (TopicUIState) -> Unit,
+    editButtonState: (Int, Boolean) -> Unit,
+    buttonState: Map<Int, Boolean>,
     itemTopic: Pair<Int, List<TopicUIState>>,
     modifier: Modifier = Modifier
 ) {
-    var expanded by remember { mutableStateOf(false) }
+    var expanded by remember { mutableStateOf(buttonState.getOrDefault(itemTopic.first, false)) }
     Column(
         modifier = modifier.animateContentSize(
             animationSpec = spring(
@@ -134,7 +151,10 @@ fun ItemTopic(
         )
     ) {
         Button(
-            onClick = { expanded = !expanded },
+            onClick = {
+                expanded = !expanded
+                editButtonState(itemTopic.first, expanded)
+            },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = dimensionResource(R.dimen.padding_small)),
@@ -212,6 +232,6 @@ fun ItemSubTopic(
 @Composable
 fun ListPreview() {
     GuideTheme {
-        ListTopicScreen({})
+        ListTopicScreen({}, {a, b ->}, mapOf())
     }
 }

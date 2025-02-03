@@ -57,6 +57,7 @@ fun GuideApp(
     )
     { innerPadding ->
         val uiState by viewModel.uiState.collectAsState()
+        val buttonState by viewModel.buttonState.collectAsState()
 
         NavHost(
             navController = navController,
@@ -68,7 +69,11 @@ fun GuideApp(
                     showOneTopic = { topic ->
                         viewModel.setAllInfo(topic)
                         navController.navigate(GuideScreen.OneTopic.name)
-                    }
+                    },
+                    editButtonState = { key, value ->
+                        viewModel.setActiveButton(key, value)
+                    },
+                    buttonState = buttonState
                 )
             }
             composable(route = GuideScreen.OneTopic.name) {
